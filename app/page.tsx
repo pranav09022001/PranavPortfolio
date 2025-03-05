@@ -8,7 +8,6 @@ import Home2 from "@/components/sections/Home2"
 import Projects2 from "@/components/sections/Projects2"
 import Service2 from "@/components/sections/Service2"
 import Skills2 from "@/components/sections/Skills2"
-import Static2 from "@/components/sections/Static2"
 export default function HomePage2() {
 
 	return (
@@ -17,7 +16,6 @@ export default function HomePage2() {
 				<Home2 />
 				<Education2 />
 				<Skills2 />
-
 				<Service2 />
 				<Projects2 />
 				<Contact2 />
