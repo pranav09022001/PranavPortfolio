@@ -103,7 +103,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isOffC
 									</div>
 								</div>
 							</div>
-							<ThemeSwitch />
+							{/* <ThemeSwitch /> */}
 						</nav>
 					</div>
 					{/* offCanvas-menu */}
