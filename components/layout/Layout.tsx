@@ -8,11 +8,7 @@ import ImageHoverEffects from '../elements/ImageHoverEffects'
 import Breadcrumb from './Breadcrumb'
 import MobileMenu from './MobileMenu'
 import Footer1 from './footer/Footer1'
-import Footer2 from './footer/Footer2'
-import Footer3 from './footer/Footer3'
 import Header1 from "./header/Header1"
-import Header2 from './header/Header2'
-import Header3 from './header/Header3'
 
 interface LayoutProps {
 	headerStyle?: Number
@@ -69,8 +65,6 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			<ImageHoverEffects />
 			{!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} />}
 			{headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} /> : null}
-			{headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} /> : null}
-			{headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} /> : null}
 			<MobileMenu />
 
 			<main className="main">
@@ -81,8 +75,6 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 
 			{!footerStyle && < Footer1 />}
 			{footerStyle == 1 ? < Footer1 /> : null}
-			{footerStyle == 2 ? < Footer2 /> : null}
-			{footerStyle == 3 ? < Footer3 /> : null}
 
 			<BackToTop target="#top" />
 		</>

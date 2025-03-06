@@ -12,7 +12,7 @@ export default function HomePage2() {
 
 	return (
 		<>
-			<Layout headerStyle={2} footerStyle={2}>
+			<Layout headerStyle={1} footerStyle={1}>
 				<Home2 />
 				<Education2 />
 				<Skills2 />
