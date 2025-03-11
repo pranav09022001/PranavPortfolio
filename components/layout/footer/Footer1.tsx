@@ -21,16 +21,14 @@ export default function Footer2() {
 								<span className="fs-4 ms-2">Pranav.dev</span>
 							</a>
 							<div className="d-flex justify-content-center gap-3">
-								<a href="http://facebook.com">
-									<i className="ri-facebook-circle-fill fs-18" />
+								<a href="https://www.instagram.com/pranavp_9/" target='_blank'>
+									<i className="ri-instagram-fill fs-18" />
 								</a>
-								<a href="http://twitter.com">
-									<i className="ri-twitter-x-fill fs-18" />
-								</a>
-								<a href="http://linkedin.com">
+
+								<a href="https://www.linkedin.com/in/pranav-pokharkar-b408111b6/" target='_blank'>
 									<i className="ri-linkedin-fill fs-18" />
 								</a>
-								<a href="http://github.com">
+								<a href="https://github.com/pranav09022001" target='_blank'>
 									<i className="ri-github-fill fs-18" />
 								</a>
 							</div>

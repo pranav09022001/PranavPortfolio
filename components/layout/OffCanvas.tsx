@@ -5,49 +5,49 @@ export default function OffCanvas({ isOffCanvas, handleOffCanvas }: any) {
 		<>
 			{/* offCanvas-menu */}
 			<div className={`offCanvas__info ${isOffCanvas ? 'active' : ''}`}>
-					<div className="offCanvas__close-icon menu-close" onClick={handleOffCanvas}>
-						<button><i className="ri-close-line" /></button>
-					</div>
-					<div className="offCanvas__logo mb-5">
-						<h3 className="mb-0">Get in touch</h3>
-					</div>
-					<div className="offCanvas__side-info mb-30">
-						<div className="contact-list mb-30">
-							<p className="fs-6 fw-medium text-200 mb-5">I'm always excited to take on new projects and collaborate with innovative minds.</p>
-							<div className="mb-3">
-								<span className="text-400 fs-5">Phone Number</span>
-								<p className="mb-0">+91 8080629593</p>
-							</div>
-							<div className="mb-3">
-								<span className="text-400 fs-5">Email</span>
-								<p className="mb-0">pranav.pokharkar.9@gmail.com</p>
-							</div>
-						
-							<div className="mb-3">
-								<span className="text-400 fs-5">Address</span>
-								<p className="mb-0">Mumbai , India</p>
-							</div>
+				<div className="offCanvas__close-icon menu-close" onClick={handleOffCanvas}>
+					<button><i className="ri-close-line" /></button>
+				</div>
+				<div className="offCanvas__logo mb-5">
+					<h3 className="mb-0">Get in touch</h3>
+				</div>
+				<div className="offCanvas__side-info mb-30">
+					<div className="contact-list mb-30">
+						<p className="fs-6 fw-medium text-200 mb-5">I'm always excited to take on new projects and collaborate with innovative minds.</p>
+						<div className="mb-3">
+							<span className="text-400 fs-5">Phone Number</span>
+							<p className="mb-0">+91 8080629593</p>
 						</div>
-						<div className="contact-list">
-							<p className="text-400 fs-5 mb-2">Social</p>
-							<div className="d-md-flex d-none gap-3">
-								<Link href="/http://facebook.com">
-									<i className="ri-facebook-circle-fill fs-18" />
-								</Link>
-								<Link href="/http://twitter.com">
-									<i className="ri-twitter-x-fill fs-18" />
-								</Link>
-								<Link href="/http://linkedin.com">
-									<i className="ri-linkedin-fill fs-18" />
-								</Link>
-								<Link href="/http://github.com">
-									<i className="ri-github-fill fs-18" />
-								</Link>
-							</div>
+						<div className="mb-3">
+							<span className="text-400 fs-5">Email</span>
+							<p className="mb-0">pranav.pokharkar.9@gmail.com</p>
+						</div>
+
+						<div className="mb-3">
+							<span className="text-400 fs-5">Address</span>
+							<p className="mb-0">Mumbai , India</p>
+						</div>
+					</div>
+					<div className="contact-list">
+						<p className="text-400 fs-5 mb-2">Social</p>
+						<div className="d-md-flex d-none gap-3">
+							<Link href="https://www.instagram.com/pranavp_9/" target='_blank' >
+								<i className="ri-instagram-fill fs-18" />
+
+
+							</Link>
+
+							<Link href="https://www.linkedin.com/in/pranav-pokharkar-b408111b6/" target='_blank'>
+								<i className="ri-linkedin-fill fs-18" />
+							</Link>
+							<Link href="https://github.com/pranav09022001" target='_blank' >
+								<i className="ri-github-fill fs-18" />
+							</Link>
 						</div>
 					</div>
 				</div>
-			<div className={`offCanvas__overly ${isOffCanvas ? 'active' : ''}`}  onClick={handleOffCanvas}/>
+			</div>
+			<div className={`offCanvas__overly ${isOffCanvas ? 'active' : ''}`} onClick={handleOffCanvas} />
 		</>
 	)
 }

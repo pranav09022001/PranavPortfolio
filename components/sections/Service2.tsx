@@ -18,7 +18,7 @@ export default function Service2() {
 										<span className="text-linear-4 d-flex align-items-center"> Services </span>
 									</div>
 									<h3>
-										Designing solutions
+										Designing solutions&nbsp;
 										<span className="text-300">
 											customized<br />
 											to meet your requirements
