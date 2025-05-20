@@ -19,26 +19,26 @@ export default function Education2() {
 									<div className="d-flex flex-column h-100 position-relative mt-5">
 										<ul className="ps-3">
 											<li className="position-relative z-1 mb-3">
-												
-													
-													<div>
-														<span className="text-primary-2">Shivajirao S. Jondhale College of Engineering</span>
-														<p className="text-300 text-nowrap fw-regular mb-0">2019-2022</p>
-														<p className="text-dark">Bachelor’s Of Engineering in Information Technology</p>
-													
+
+
+												<div>
+													<span className="text-primary-2">Shivajirao S. Jondhale College of Engineering</span>
+													<p className="text-300 text-nowrap fw-regular mb-0">2019-2022</p>
+													<p className="text-dark">Bachelor’s Of Engineering in Information Technology</p>
+
 												</div>
 											</li>
 											<li className="position-relative z-1 mb-3">
-												
-												
-													<div>
-														<span className="text-primary-2">Government Polytechnic Thane</span>
-														<p className="text-300 text-nowrap fw-regular mb-0">2016-2019</p>
-														<p className="text-dark">Diploma in Information Technology</p>
-													</div>
-												
+
+
+												<div>
+													<span className="text-primary-2">Government Polytechnic Thane</span>
+													<p className="text-300 text-nowrap fw-regular mb-0">2016-2019</p>
+													<p className="text-dark">Diploma in Information Technology</p>
+												</div>
+
 											</li>
-											
+
 										</ul>
 										<div className="line-left position-absolute top-0 border-start z-0" />
 									</div>
@@ -59,39 +59,39 @@ export default function Education2() {
 										<li className="position-relative z-1 mb-3">
 											<div >
 
-												
-												<p className="text-primary-2 mb-0">Channel 176 : <span className="text-primary-3">Full Stack Developer</span></p>
-												<p className="text-300 text-nowrap fw-regular mb-0">May 2023 - Present</p>
-													
-													<ul className="text-dark">
-  <li>Led the development of Audio Pitara at Channel 176, a responsive podcast web app using React.js, Next.js, Express.js, Node.js and MongoDb</li>
-  <li>Built and optimized client websites for performance and responsiveness.</li>
-  <li>Improved analytics using Mixpanel, Google Analytics, and Google Play Console.</li>
-  <li>Integrated RESTful APIs for personalized content and faster load times.</li>
-  <li>Implemented SEO strategies to boost search visibility.</li>
-  <li>Conducted comprehensive testing across web and mobile platforms to ensure performance, security, and user satisfaction.</li>
-</ul>
 
-											
+												<p className="text-primary-2 mb-0">Channel 176 : <span className="text-primary-3">Full Stack Developer</span></p>
+												<p className="text-300 text-nowrap fw-regular mb-0">feb 2023 - Present</p>
+
+												<ul className="text-dark">
+													<li>Led the development of Audio Pitara at Channel 176, a responsive podcast web app using React.js, Next.js, Express.js, Node.js and MongoDb</li>
+													<li>Built and optimized client websites for performance and responsiveness.</li>
+													<li>Improved analytics using Mixpanel, Google Analytics, and Google Play Console.</li>
+													<li>Integrated RESTful APIs for personalized content and faster load times.</li>
+													<li>Implemented SEO strategies to boost search visibility.</li>
+													<li>Conducted comprehensive testing across web and mobile platforms to ensure performance, security, and user satisfaction.</li>
+												</ul>
+
+
 											</div>
 										</li>
 										<li className="position-relative z-1 mb-3">
 											<div className="d-flex gap-2">
-												
+
 												<div>
-												<p className="text-primary-2 mb-0">CNC Web World : <span className="text-primary-3">Full Stack Developer Intern</span></p>
-												<p className="text-300 text-nowrap fw-regular mb-0">Oct 2022 - Mar 2023</p>
-													
+													<p className="text-primary-2 mb-0">CNC Web World : <span className="text-primary-3">Full Stack Developer Intern</span></p>
+													<p className="text-300 text-nowrap fw-regular mb-0">Oct 2022 - Mar 2023</p>
+
 													<ul className="text-dark">
-  <li>Contributed to the development of client websites using React.js, Bootstrap, HTML, CSS, JavaScript, and Java.</li>
-  <li>Designed and implemented responsive, user-friendly interfaces for an enhanced user experience.</li>
-  <li>Integrated front-end components with backend services for smooth functionality and data processing.</li>
-</ul>
+														<li>Contributed to the development of client websites using React.js, Bootstrap, HTML, CSS, JavaScript, and Java.</li>
+														<li>Designed and implemented responsive, user-friendly interfaces for an enhanced user experience.</li>
+														<li>Integrated front-end components with backend services for smooth functionality and data processing.</li>
+													</ul>
 
 												</div>
 											</div>
 										</li>
-																		</ul>
+									</ul>
 									<div className="line-left position-absolute top-0 border-start z-0" />
 								</div>
 								<div className=" position-absolute bottom-0 start-0 z-1" />
